@@ -1,0 +1,79 @@
+Setup a new project:
+	expo init "AppName"
+	change orientation:"" to "default" in app.json
+
+Start metro bundler: cd MyFirstApp
+		     npm start
+
+Start a android simulator:
+
+	android studio -> avd manager
+
+Formik ( for building forms):
+
+	npm i formik@2.1.4
+
+
+To download extensions:
+	
+	cd "AppName"
+	npm i @react-native-community/hooks 
+
+
+RN shortcuts in VScode:
+	
+	use React-Native/React/Redux snippets 
+
+
+VSCode techniques: 
+
+	Multi-Cursor editing(make sure text is within the safe area): command + D
+
+Debug on Chrome: If error occurs(developer menu) -> IOS: press command + D Android: press command + M (N)
+
+	start remote debugging JS 
+		
+	then open -> view -> developer -> developer tools
+	
+	Console tab to see what the error is 
+	
+	Sources tab->pause icon-> to highlight the line where exception occurs
+	
+	Watch -> to see what the value of variable is
+			
+	Breakpoints -> to pause the execution and open chrome debugger
+		   
+Debug on VSCode:
+
+	add configuration on debug section on vs code
+	
+	make sure attach the packager to port 8081 (VSCode->preferences->setting->User(search: react-native.packager.port) 
+
+
+Publishing an APP:
+	use publish project on metro bundler
+
+
+Useful APIs /Documentations:
+
+	www.reactnative.dev/docs -> API -> Core Components 
+
+Styles:
+	flex: 1 (fills and takes the entire screen)
+	backgroundColor (change the color exactly the way web dev is)
+
+Texts:
+	<Text numberOfLines={1}>: long text will be truncated to one line
+
+
+
+Here are the top three UI toolkits for React Native:
+
+React Native Elements (My Recommendation): https://react-native-elements.github.io/react-native-elements/
+
+React Native Paper: https://callstack.github.io/react-native-paper/
+
+Native Base: https://nativebase.io/
+
+
+
